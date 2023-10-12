@@ -9,6 +9,7 @@ This is a portfolio website built using React, showcasing my skills, projects, a
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
+- [Contributing](#contributing)
 
 ## Features
 
@@ -75,10 +76,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to the branch: `git push origin feature/your-feature`.
 5. Open a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
-
-Feel free to tailor the content and structure to suit your specific portfolio website. Provide adequate instructions for setup, customization, and contribution to ensure a smooth experience for developers and users.
