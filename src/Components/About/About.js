@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './About.module.css'
+import image1 from './picture.jpeg'
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
       <h2 className={styles.head} >About</h2>
       <div className={styles.content} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil minus iste voluptas molestias ad excepturi accusamus, quas nisi aspernatur doloribus odit saepe necessitatibus cumque similique, quasi laudantium magnam fugiat aut.</div>
       <div className={styles.container} >
-        <img src="https://images.unsplash.com/photo-1696537768579-705244eb77c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2OXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" className={styles.image} />
+        <img src={image1} alt="" className={styles.image} />
         <div className={styles.main2} >
           <h2 className={styles.heading2}>Full Stack Web Developer</h2>
           <div >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolor molestiae veniam recusandae dolore sed laudantium adipisci nesciunt, numquam </div>

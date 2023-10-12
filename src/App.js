@@ -10,8 +10,8 @@ import Contact from './Components/Contact/Contact'
 const App = () => {
   return ( 
     <div>
-
-      <Sidebar  />
+ 
+      <Sidebar/>
       <Home/>
       <About/>
       <Skill/>

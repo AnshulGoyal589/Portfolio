@@ -4,7 +4,7 @@ import styles from './Skill.module.css'
 
 const Skill = () => {
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id='Skills'>
       <h2 className={styles.head} >Skills</h2>
       <div className={styles.content} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil minus iste voluptas molestias ad excepturi accusamus, quas nisi aspernatur doloribus odit saepe necessitatibus cumque similique, quasi laudantium magnam fugiat aut.</div>
       <ul className={styles.listContainer} >
