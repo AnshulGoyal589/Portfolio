@@ -1,0 +1,31 @@
+.main{
+    border:2px solid black;
+    width:81.5vw;
+    margin-left: 18.5vw;
+    height:100vh;
+    background-color: gray;
+    background-image: url('./background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.image{
+    width: 500px;
+    height: 650px;
+    /* border-radius: 50%; */
+    /* border: 5px solid gray; */
+    position: relative;
+    left:315px;
+    top:40px;
+
+
+}
+.intro{
+    position: relative;
+    left:290px;
+    top:120px;
+    width: '300px';
+    display: inline-block;
+    /* color: white; */
+    
+
+}

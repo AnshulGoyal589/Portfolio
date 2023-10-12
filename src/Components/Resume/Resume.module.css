@@ -1,0 +1,18 @@
+.main{
+    border:2px solid black;
+    width:81.5vw;
+    margin-left: 18.5vw;
+    height:100vh;
+    padding-left: 35px;
+    padding-top: 60px;
+}
+.head{
+    color:#173b6c;
+    border-bottom: 4px solid #149ddd;
+    display: inline-block; 
+    padding-bottom: 16px;
+    border-top-width:30px;
+}
+.content{
+    margin-top: 20px;
+}
