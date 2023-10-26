@@ -4,6 +4,7 @@
     height:100vh;
     padding-left: 35px;
     padding-top: 60px;
+    background-color: #edede9;
 }
 .head{
     color:#173b6c;
@@ -21,13 +22,29 @@
 }
 .body1{
     width:40%;
-    display: inline-block;
     position: relative;
-    bottom:225px;
+    background-color: white;
+    height: 400px;
+    padding: 27px;
+    font-size: 22px;
+    height :450px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .form{
-    display:inline-block;
-    width: 50%;
-    margin-left: 60px;
-    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    background-color: white;
+    height: 5;
+
+
+}
+.form>div{
+    margin: 12px;
+}
+#abc{
+    margin-bottom: 60px !important;
 }

@@ -1,55 +1,89 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './Contact.module.css'
+import axios from 'axios'
 
 const Contact = () => {
+    let [subject,setSubject]=useState("");
+    let [body,setBody]=useState("");
+    let [from,setFrom]=useState("");
+  const handleSubjectChange = (event) => {
+    // Update the subject state when the input value changes
+    setSubject(event.target.value);
+  };
+  const handleBodyChange = (event) => {
+    // Update the subject state when the input value changes
+    setBody(event.target.value);
+  };
+  const handleFromChange = (event) => {
+    // Update the subject state when the input value changes
+    setFrom(event.target.value);
+  };
+  const handleSubmit = async(event) => {
+    event.preventDefault();
+  
+    const encodedSubject = encodeURIComponent(subject);
+    const encodedBody = encodeURIComponent(body);
+  
+    const mailtoLink = `mailto:anshulgoyal589@gmail.com?subject=${encodedSubject}&body=${encodedBody}`;
+  
+    window.location.href = mailtoLink;
+
+  };
+  
   return (
     <div className={styles.main} id='Contact'>
      
       <h2 className={styles.head} >Contact</h2>
       <div >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem ullam quasi facere itaque. Recusandae, ea. 
         Aperiam laboriosam soluta rerum aspernatur sunt laborum dolorem mollitia, quod culpa modi repellendus officiis labore.
-      </div>
+      </div>    
+      <div style={{display:'flex',position:'relative',top:'30px',left:'15px',gap:'50px'}} >
       <div className={styles.body1} >
         <div className={styles.locationContainer}>
           <i class="fa-solid fa-location-dot fa-2xl"></i>
           <div className={styles.location}>
-            <h5>Location</h5>
+            <h3>Location</h3>
             <p>New Delhi, India</p>
           </div>
         </div>
         <div className={styles.locationContainer}>
         <i class="fa-solid fa-envelope fa-2xl"></i>
           <div className={styles.location}>
-            <h5>Email</h5>
+            <h3>Email</h3>
             <p>anshulgoyal589@gmail.com</p>
           </div>
         </div>
         <div className={styles.locationContainer}>
         <i class="fa-solid fa-phone fa-2xl"></i>
           <div className={styles.location}>
-            <h5>Call</h5>
+            <h3>Call</h3>
             <p>+91 81680-79094</p>
           </div>
         </div>
         <div></div>
       </div>
-      <form className={styles.form}>
-        <label htmlFor="">Name</label>
-        <br />
-        <input type="text"  />
-        <br /><br />
-        <label htmlFor="">Email ID</label>
-        <br />
-        <input type="text" />
-        <br /><br />
-        <label htmlFor="">SUBJECT</label>
-        <br />
-        <input type="text" />
-        <br /><br />
-        <label htmlFor="">DESCRIPTION</label>
-        <br />
-        <textarea rows={6} cols={65} ></textarea>
+      <form className={styles.form}  onSubmit={handleSubmit} >
+      <div style={{marginTop:'40px'}}>
+        <div class="form-floating"   style={{width:'215px',display:'inline-block',marginRight:'25px'}}>
+          <input type="text" className="form-control" id="floatingInput" placeholder="Username" />
+          <label htmlFor="floatingInput">Your Name</label>
+        </div>
+        <div class="form-floating" style={{width:'215px',display:'inline-block'}} >
+          <input type="email" className="form-control" id="floatingPassword" placeholder="abcd@gmail.com" onChange={handleFromChange} />
+          <label for="floatingPassword">Your Email</label>
+        </div>
+        </div>
+        <div class="form-floating" id='abc' >
+          <input type="String" className="form-control" id="floatingPassword" placeholder="Subject" onChange={handleSubjectChange} />
+          <label for="floatingPassword">SUBJECT</label>
+        </div>
+        <div class="form-floating" id='abc' >
+          <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{height: '160px'}}onChange={handleBodyChange} />
+          <label for="floatingTextarea2">Description</label>
+        </div>
+        <button type="submit" class="btn btn-primary" style={{width:'fit-content',margin:'auto'} } >SEND MAIL</button>
       </form>
+      </div>
           
 
     </div>
