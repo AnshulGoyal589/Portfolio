@@ -12,49 +12,47 @@ const Project = () => {
       <div className={styles.list}>
 
         <div className={styles.listChild} >
-          <Link to="https://github.com/AnshulGoyal589/EcommerceWebsite"><strong>ECommerce Website</strong></Link>
+          <Link to="https://github.com/AnshulGoyal589/Antivirus-Authentication-Mechanism"><strong>Antivirus Authentication Mechanism</strong></Link>
 
           <div className={styles.container}>
-          <img className={styles.image} src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGVjb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Ecommerce Logo" />
+          <img className={styles.image} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZxbnQKlhEeDsrxvjRBrUc63slnafYX04J8w&usqp=CAU" alt="Ecommerce Logo" />
           <ul >
-            <li>Implemented secure authentication mechanisms for both buyers and sellers</li>
-            <li>Designed and implemented an intuitive shopping cart system for seamless 
-              user experience, ensuring smooth navigation and order management for buyers and sellers
-            </li>
+            <li>A chrome extension for authenticating antivirus mechanism and has both customer and admin panel.</li>
+            <li>Made using ReactJS, NodeJS, MongoDB, ExpressJS, HTML, CSS, JavaScript, Bootstrap, Material UI, whatsapp-web.js</li>
           </ul>
           </div>
           <img src="" alt="" />
 
         </div>
         <div className={styles.listChild} >
-          <Link to="https://github.com/AnshulGoyal589/WeatherlyApp"><strong>Weatherly App</strong></Link>
+          <Link to="https://github.com/AnshulGoyal589/Whatsapp-Automation"><strong>Whatsapp Automation</strong></Link>
         <div className={styles.container}>
-          <img className={styles.image} src="https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlYXRoZXIlMjBhcHB8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Ecommerce Logo" />
+          <img className={styles.image} src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/640px-WhatsApp.svg.png" alt="Ecommerce Logo" />
           <ul>
-            <li>Developed a weather app providing real-time weather updates and forecasts</li>
-            <li>Integrated geolocation functionality to tailor weather information based on user's location</li>
+            <li>A chrome extension for adding new features to whatsapp-web and automating it with improvised features.</li>
+            <li>Enahnced features in whatsapp web are impplanted like multi-chats pinning, labelling, blur effect in privacy.</li>
           </ul>
           
         </div>
         </div>
         <div className={styles.listChild} >
-          <Link to="https://github.com/AnshulGoyal589/TalkSync"><strong>Film Fusion</strong></Link>
+          <Link to="https://github.com/AnshulGoyal589/instaClone"><strong>Instagram Clone</strong></Link>
         <div className={styles.container}>
-          <img className={styles.image} src="https://images.unsplash.com/photo-1532800181046-044ce9bfd577?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fGZpbG18ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Ecommerce Logo" />
+          <img style={{width:'250px',height:'130px',borderRadius: '50%',marginLeft:'-40px'}} src="https://1000logos.net/wp-content/uploads/2017/02/Instagram-Logo.png" alt="Ecommerce Logo" />
           <ul>
-            <li>Created Film Fusion app for seamless video editing and production</li>
-            <li>Integrated a user-friendly interface and comprehensive editing tools for enhanced creativity</li>
+            <li>A robust and fully functional clone of Instagram where you can post anything.</li>
+            <li>Make your id and comment on each others posts and even post your stories.</li>
           </ul>
           
         </div>
         </div>
         <div className={styles.listChild} >
-          <Link to="https://github.com/AnshulGoyal589/FilmFusion"><strong>CoffeeBrewHub</strong></Link>
+          <Link to="https://github.com/AnshulGoyal589/EcommerceWebsite"><strong>Ecommerce Website</strong></Link>
         <div className={styles.container}>
-          <img className={styles.image} src="https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29mZmVlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Ecommerce Logo" />
+          <img className={styles.image} src="https://w7.pngwing.com/pngs/621/196/png-transparent-e-commerce-logo-logo-e-commerce-electronic-business-ecommerce-angle-text-service.png" alt="Ecommerce Logo" />
           <ul>
-            <li>Developed Coffee Brew Hub, an app to discover and explore coffee brewing techniques</li>
-            <li>Integrated a user-friendly interface for easy navigation and a delightful user experience</li>
+            <li>Ecommerce website with payment gateway, buyer and seller authentication , CRUD , cart and review system.</li>
+            <li>Made using MongoDB, ReactJS, NodeJS, Express, stripe, chatbot API </li>
           </ul>
           
         </div>

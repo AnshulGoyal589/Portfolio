@@ -12,7 +12,7 @@
     top:0px;
     z-index: 1; */
 } 
-.image{
+.imagge{
     width: 500px;
     height: 650px;
     position: relative;
@@ -22,11 +22,15 @@
 
 }
 .intro{
+    /* position: absolute; */
     position: relative;
     left:290px;
-    top:120px;
+    top:100px;
     width: '300px';
     display: inline-block;
+    /* border: 2px solid black; */
+    height: 20px;
+    
     /* color: white; */
     
 

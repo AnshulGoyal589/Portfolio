@@ -20,7 +20,7 @@ import { AiFillTwitterCircle,AiFillInstagram,AiFillLinkedin,AiFillGithub } from 
   return (
     <div className={styles.main}>
       
-      <img className={styles.image} src={image2} alt="profile photo" />
+      <img className={styles.imagee} src={image2} alt='kk' />
       <h2 className={styles.name} >Anshul Goyal</h2>
       <div className={styles.social}>
         <a href="https://twitter.com/AnshulG70118665"><AiFillTwitterCircle class={styles.twitter} /></a>
