@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from './Contact.module.css'
 import axios from 'axios'
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
     let [subject,setSubject]=useState("");
@@ -34,8 +35,10 @@ const Contact = () => {
     <div className={styles.main} id='Contact'>
      
       <h2 className={styles.head} >Contact</h2>
-      <div >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem ullam quasi facere itaque. Recusandae, ea. 
-        Aperiam laboriosam soluta rerum aspernatur sunt laborum dolorem mollitia, quod culpa modi repellendus officiis labore.
+      <div >Thank you for visiting my portfolio.! Whether you're interested in collaboration, have a project in mind, 
+        or just want to connect, feel free to reach out. Drop me an email at anshulgoyal589@gmail.com or connect with me on 
+        <Link to="https://www.linkedin.com/in/anshul-goyal-a9b537254/"><strong> LinkdeIn</strong></Link>.
+         Looking forward to the opportunity to chat!
       </div>    
       <div style={{display:'flex',position:'relative',top:'30px',left:'15px',gap:'50px'}} >
       <div className={styles.body1} >

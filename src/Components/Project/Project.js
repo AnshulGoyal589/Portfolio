@@ -58,15 +58,14 @@ const Project = () => {
         </div>
         </div>
         <div className={styles.listChild} >
-          <Link to="https://github.com/AnshulGoyal589/CoffeeBrewHub"><strong>Snake Game</strong></Link>
-        <div className={styles.container}>
-          <img className={styles.image} src="https://images.unsplash.com/photo-1633081528930-91c8cc07f3d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c25ha2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Ecommerce Logo" />
+          <Link to="https://github.com/AnshulGoyal589/Product-management-system"><strong>Product management System</strong></Link>
+          <div className={styles.container}>
+          <img className={styles.image} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO__qkMwF7zq6E1J6CGqM2dIdYbW6hJxUvag&usqp=CAU" alt="Ecommerce Logo" />
           <ul>
-            <li>Built a classic Snake game utilizing the Canvas API for rendering graphics</li>
-            <li>Programmed interactive controls and collision detection for an engaging gaming experience</li>
+            <li>Admin Panel to manipulate data on other Ecommerce Websites amd seamlessly integrate with them.</li>
+            <li>Now control your Ecommerce website using this admin panel and get regular stats of totla revenue, total orders,etc.</li>
           </ul>
-          
-        </div>
+          </div>
         </div>
 
       </div>
