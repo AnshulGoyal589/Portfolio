@@ -1,0 +1,10 @@
+.uni  li{
+    /* border: 1px solid white; */
+    width: 8rem;
+    list-style: square;
+    margin-left: 10%;
+
+}
+#spec li{
+    width: 100%;
+}

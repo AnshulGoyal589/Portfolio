@@ -1,0 +1,5 @@
+.navbar-container {
+    backdrop-filter: blur(20px); /* Apply blur effect */
+    background-color: rgba(33, 36, 40, 0.5); /* Example blue color with opacity */
+    box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Add drop shadow */
+  }
