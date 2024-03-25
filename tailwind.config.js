@@ -44,9 +44,9 @@ export default {
           ]
       },
       height: {
-        '128': '33rem',
+        '128': '72vh',
       }
     }
   },
   plugins: [require("daisyui")],
-}
+} 
