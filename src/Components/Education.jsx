@@ -3,6 +3,8 @@ import one from './college.png'
 const Education = () => {
   return (
     <div className='flex flex-col justify-center items-center' >
+        <div className='border-[1px] border-black w-4/5 mt-32' ></div>
+
         <h2 className='text-red text-[13px] mt-20' >BACHELORS IN TECHNOLOGY</h2>
         <h1 className='text-4xl font-[600] text-gray' >Education</h1>
 
@@ -11,7 +13,7 @@ const Education = () => {
                 <img className='w-[19%] h-full rounded-xl' src={one} alt="" />
                 <div className='flex flex-col justify-center items-start w-[60%] ' >
                     <h4 className='text-sm bg-gray-dark rounded-3xl py-1 px-3' >November 2022 - July 2026</h4>
-                    <h1 className='mt-3 text-2xl' >Netaji Subhas University Of Technology</h1>
+                    <h1 className='mt-3 text-2xl' >Netaji Subhas University Of Technology, Delhi</h1>
                     <h2 className='text-xl mt-3' >Computer Science And Engineering ( BTech )  </h2>
                     <h3 className='text-[0.9rem] text-[#878e99] mt-1' >Pursuing BTech Cmputer Science In NSUT Main Campus</h3>
                 </div>
@@ -21,7 +23,7 @@ const Education = () => {
             </div>
         </div>
 
-        <div className='border-[1px] border-black w-4/5  mt-24' ></div>
+        {/* <div className='border-[1px] border-black w-4/5  mt-24' ></div> */}
 
     </div>
   )

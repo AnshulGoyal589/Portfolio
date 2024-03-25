@@ -4,11 +4,11 @@ import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
-
+    
 const Home = () => {
   return (
     <>
-        <div className='flex justify-center items-center pb-12 pt-36 pl-36 pr-36 ' >
+        <div className='flex justify-center items-center pb-12 pt-44 pl-36 pr-36 ' >
             <div className='flex flex-col w-[49%] px-12 gap-7 drop-shadow-white' >
                 <div className='h-[50vh] drop-shadow-4xl rounded-xl'>
                     <div className='w-full h-full bg-blueTheme rounded-xl p-7 flex flex-col justify-between gap-4' >
@@ -52,7 +52,7 @@ const Home = () => {
             </div>
 
         </div>
-        <div className='border-[1px] border-black w-4/5 ml-44 mt-10' ></div>
+        {/* <div className='border-[1px] border-black w-4/5 ml-44 mt-10' ></div> */}
     </>
   )
 }

@@ -3,9 +3,11 @@ import './skills.css'
  
 const Skills = () => {
   return (
-    <div className='flex flex-col justify-center items-center' >
-        <h2 className='text-red text-[13px] mt-20' >OVER 1 YEAR OF EXPERIENCE</h2>
-        <h1 className='text-4xl font-[600] text-gray' >My Experience</h1>
+    <div className='flex flex-col justify-center items-center mt-12' >
+
+    <div className='border-[1px] border-black w-4/5 mt-12 ' ></div>
+        <h2 className='text-red text-[13px] mt-16' >MY PROFICIENY SKILLS</h2>
+        <h1 className='text-4xl font-[600] text-gray' >My Skills</h1>
 
 
         <div className='flex justify-start mt-10 items-start w-[90%] h-full pr-36 text-[1.2rem]' >
@@ -113,8 +115,6 @@ const Skills = () => {
 
         </div>
 
-
-        <div className='border-[1px] border-black w-4/5  mt-24' ></div>
 
 
     </div>

@@ -7,6 +7,10 @@ import four from './four.jpg'
 const Experience = () => {
   return (
     <div className='flex flex-col justify-center items-center' >
+
+        <div className='border-[1px] border-black w-4/5  mt-16' ></div>
+
+
         <h2 className='text-red text-[13px] mt-20' >OVER 1 YEAR OF EXPERIENCE</h2>
         <h1 className='text-4xl font-[600] text-gray' >My Experience</h1>
 
@@ -69,7 +73,6 @@ const Experience = () => {
         </div> 
 
 
-        <div className='border-[1px] border-black w-4/5  mt-24' ></div>
 
 
     </div>
