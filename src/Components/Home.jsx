@@ -4,11 +4,12 @@ import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
+import anshul from './anshul.jpeg'
     
 const Home = () => {
   return (
     <>
-        <div className='flex justify-center items-center pb-12 pt-44 pl-36 pr-36 ' >
+        <div className='flex justify-center items-center pb-12 pt-44 pl-36 pr-44 ' >
             <div className='flex flex-col w-[49%] px-12 gap-7 drop-shadow-white' >
                 <div className='h-[50vh] drop-shadow-4xl rounded-xl'>
                     <div className='w-full h-full bg-blueTheme rounded-xl p-7 flex flex-col justify-between gap-4' >
@@ -45,9 +46,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-[55%] drop-shadow-4xl h-128 rounded-xl' >
-                <div className='w-full h-full bg-blueTheme rounded-xl p-8' >
-                    <img className='w-full h-full rounded-xl' src="https://images.unsplash.com/photo-1551583899-d3f6258ec7c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNvZGVyfGVufDB8fDB8fHww" alt="" />
+            <div className='w-[45%] drop-shadow-4xl h-128 rounded-xl' >
+                <div className='w-full h-full bg-blueTheme rounded-xl py-8 px-[6.5vw]' >
+                    <img className='w-full h-full rounded-xl' src={anshul} alt="" />
                 </div>
             </div>
 
