@@ -5,7 +5,7 @@ const Education = () => {
     <div className='flex flex-col justify-center items-center' >
         <div className='border-[1px] border-black w-4/5 mt-32' ></div>
 
-        <h2 className='text-red text-[13px] mt-20' >BACHELORS IN TECHNOLOGY</h2>
+        <h2 className='text-red text-[13px] mt-20' >BACHELORS IN TECHNOLOGY (COMPUTER SCIENCE) </h2>
         <h1 className='text-4xl font-[600] text-gray' >Education</h1>
 
         <div className='drop-shadow-4xl w-[70%] h-52 rounded-xl mt-10 text-gray' >

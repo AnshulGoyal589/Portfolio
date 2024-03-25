@@ -6,53 +6,9 @@ import Education from './Components/Education'
 import Skills from './Components/Skills'
 import Projects from './Components/Projects'
 import './App.css'
+import Contact from './Components/Contact'
 
 const App = () => {
-
-  const [showHome, setShowHome] = useState(true);
-  const [showExperience, setShowExperience] = useState(true);
-  const [showEducation, setShowEducation] = useState(true);
-  const [showSkills, setShowSkills] = useState(true);
-  const [showProjects, setShowProjects] = useState(true);
-
-  const choose = (e) => {
-    if(e === 'HOME') {
-      setShowHome(true);
-      setShowExperience(false);
-      setShowEducation(false);
-      setShowSkills(false);
-      setShowProjects(false);
-    }
-    if(e === 'EXPERIENCE') {
-      setShowHome(false);
-      setShowExperience(true);
-      setShowEducation(false);
-      setShowSkills(false);
-      setShowProjects(false);
-    }
-    if(e === 'EDUCATION') {
-      setShowHome(false);
-      setShowExperience(false);
-      setShowEducation(true);
-      setShowSkills(false);
-      setShowProjects(false);
-    }
-    if(e === 'SKILLS') {
-      setShowHome(false);
-      setShowExperience(false);
-      setShowEducation(false);
-      setShowSkills(true);
-      setShowProjects(false);
-    }
-    if(e === 'PROJECTS') {
-      setShowHome(false);
-      setShowExperience(false);
-      setShowEducation(false);
-      setShowSkills(false);
-      setShowProjects(true);
-    }
-  }
-
 
   return (
     <div className='bg-blueTheme text-white' >
@@ -74,6 +30,9 @@ const App = () => {
         </div>
         <div id='projects' >
           <Projects/>
+        </div>
+        <div id='contact' >
+          <Contact/>
         </div>
         
     </div> 
