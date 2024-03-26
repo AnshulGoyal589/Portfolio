@@ -16,14 +16,29 @@ const Home = () => {
 
       const generatePDF = () => {
         const pdfUrl = './resume.pdf';
-        const link = document.createElement('a');
-        link.href = pdfUrl;
-        link.download = 'Resume_Anshul_Goyal.pdf';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        alert('Resume Downloaded Successfully!');
+      
+        fetch(pdfUrl)
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Failed to download PDF file');
+            }
+            return response.blob();
+          })
+          .then(blob => {
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'Resume_Anshul_Goyal.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            alert('Resume Downloaded Successfully!');
+          })
+          .catch(error => {
+            console.error('Error downloading PDF:', error);
+            alert('Failed to download PDF. Please try again later.');
+          });
       };
+      
 
   return (
     <>
