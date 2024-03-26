@@ -3,3 +3,55 @@
     background-color: rgba(33, 36, 40, 0.5); /* Example blue color with opacity */
     box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Add drop shadow */
   }
+ 
+  @media (min-width: 301px) and (max-width: 600px) {
+
+    #onee{
+      display: none !important;
+
+    }
+
+    #twoo{
+        display: block !important;
+        /* border: 1px solid white; */
+        margin-right: 12vw !important;
+        /* margin-top: 10vh !important; */
+    }
+    #mainn{
+      display: flex;
+      flex-direction: row !important;
+      justify-content: center !important;
+      align-items: center !important;
+      height: 15vh !important;
+      width: 99vw !important;
+      gap: 30vw !important;
+    }
+    #namee{
+      /* border: 1px solid white; */
+      width: fit-content !important;
+      font-size: 5vw !important;
+    }
+    #namee img{
+      /* border: 1px solid white; */
+      width: 20vw !important;
+    }
+    #navb ul{
+      /* border: 1px solid white; */
+      padding-left: 10vw;
+      padding-right: 5vw;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+    }
+    #navb li{
+      /* border: 1px solid white; */
+      padding-top: 2vh;
+      /* padding-bottom: 2vh; */
+    }
+    #navb{
+      /* border: 1px solid white; */
+      height: 10vh !important;
+      position: absolute;
+      top: 10vh !important;
+      right: 2vw;
+    }
+}
