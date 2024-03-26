@@ -42,9 +42,9 @@ const Navbar = () => {
             <FaBars onClick={burgerHandle}  />
 
         </div>
-        <div id="navb" className='drop-shadow-4xl rounded-xl ' >
+        <div id="navb"  onClick={burgerHandle}   className='drop-shadow-4xl rounded-xl ' >
               <ul className='flex flex-col justify-start items-start  text-base text-white bg-blueTheme rounded-xl '  >
-                <li onClick={() => scrollToSection('home')} role="button"><span className='text-white' >HO</span>ME</li>
+                <li onClick={() => scrollToSection('home') } role="button"><span className='text-white' >HO</span>ME</li>
                 <li onClick={() => scrollToSection('experience')} role="button"><span className='text-white' >EXPE</span>RIENCE</li>
                 <li onClick={() => scrollToSection('education')} role="button"><span className='text-white' >EDUC</span>ATION</li>
                 <li onClick={() => scrollToSection('skills')} role="button"><span className='text-white' >SKI</span>LLS</li>

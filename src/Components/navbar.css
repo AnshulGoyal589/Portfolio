@@ -44,6 +44,7 @@
     }
     #navb li{
       /* border: 1px solid white; */
+      width: 100%;
       padding-top: 2vh;
       /* padding-bottom: 2vh; */
     }
