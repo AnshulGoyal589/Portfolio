@@ -56,19 +56,19 @@ const Home = () => {
                             <p id='nameD' className='text-gray-light  h-[42%] text-[1vw]' >I'm a Full Stack Web Developer, a Competitive Programmer & an Open Source Enthusiast.</p>
                         </div>
 
-                        <div className='flex flex-col justify-evenly  h-[45%]' >
-                            <p className='flex gap-5 text-base hover:cursor-pointer '   onClick={() => window.open('https://github.com/AnshulGoyal589','_blank')}   ><FaGithub className='text-red text-6xl'/><span id='oneDD' >https://github.com/AnshulGoyal589</span></p>
-                            <p className='flex gap-5 text-base hover:cursor-pointer '   onClick={() => window.open('https://www.linkedin.com/in/anshul-goyal-a9b537254','_blank')}   ><CiLinkedin className='text-red text-2xl' /><span id='oneDD' >https://www.linkedin.com/in/anshul-goyal-a9b537254</span></p>
-                            <p className='flex gap-5 text-base hover:cursor-pointer '   onClick={() => window.open('tel:+918168079094','_blank')}   ><IoCallOutline className='text-red text-6xl' /><span id='oneDD' >+91 81680 79094</span></p>
-                            <p className='flex gap-5 text-base hover:cursor-pointer '   onClick={() => window.open('mailto:anshulgoyal589@gmail.com','_blank')}  ><CiMail className='text-red text-2xl' /><span id='oneDD' >anshulgoyal589@gmail.com</span></p>
+                        <div id='links' className='flex flex-col justify-evenly  h-[45%]' >
+                            <p className='flex gap-5 text-base hover:cursor-pointer '   onClick={() => window.open('https://github.com/AnshulGoyal589','_blank')}   ><FaGithub id='icon' className='text-red text-6xl'/><span id='oneDD' >https://github.com/AnshulGoyal589</span></p>
+                            <p className='flex gap-5 text-base hover:cursor-pointer '   onClick={() => window.open('https://www.linkedin.com/in/anshul-goyal-a9b537254','_blank')}   ><CiLinkedin id='icon' className='text-red text-2xl' /><span id='oneDD' >https://www.linkedin.com/in/anshul-goyal-a9b537254</span></p>
+                            <p className='flex gap-5 text-base hover:cursor-pointer '   onClick={() => window.open('tel:+918168079094','_blank')}   ><IoCallOutline id='icon' className='text-red text-6xl' /><span id='oneDD' >+91 81680 79094</span></p>
+                            <p className='flex gap-5 text-base hover:cursor-pointer '   onClick={() => window.open('mailto:anshulgoyal589@gmail.com','_blank')}  ><CiMail id='icon' className='text-red text-2xl' /><span id='oneDD' >anshulgoyal589@gmail.com</span></p>
 
                         </div>
-                    </div>  
+                    </div>   
                 </div>
                 <div id='two' className=' h-[18vh] drop-shadow-4xl rounded-xl'>
                     <div className='w-full  h-full bg-blueTheme rounded-xl p-5' >
                     <p id='twoC1' className='text-gray-light text-6xl ml-2' >Download my Resume</p>
-                    <div  className='flex justify-start items-center gap-7 mt-2' >
+                    <div id='part' className='flex justify-start items-center gap-7 mt-2' >
                         <div className='rounded-xl drop-shadow-4xl ' >
                             <div id='twoC2' className='bg-blueTheme rounded-xl  py-2 px-5 w-full  h-full text-red text-base hover:cursor-pointer ' onClick={generatePDF} >DOWNLOAD</div>
                         </div>

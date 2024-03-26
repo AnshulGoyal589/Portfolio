@@ -1,4 +1,4 @@
-@media (min-width: 401px) and (max-width: 500px) {
+@media (min-width: 301px) and (max-width: 500px) {
 
     #main{
         flex-direction: column;
@@ -8,10 +8,14 @@
         padding-right: 0px !important;
         width: 80%;
     }
-    #main > div {
+    #main > div { 
         width: 100%;
         height: fit-content;
         /* border: 1px solid white; */
         margin-left: -3rem;
+    }
+    #hero > h1{
+        text-align: center !important;
+        /* border: 1px solid white; id='hero' */
     }
 }

@@ -26,6 +26,34 @@
 
 }
 
+@media (min-width: 301px) and (max-width: 400px) {
+
+    #main{
+        flex-direction: column;
+        /* border: 1px solid white; */
+        /* padding-right: 6rem !important; */
+        justify-content: center !important;
+        align-items: center !important; 
+        width: 80%;
+        margin-top: 2vw !important;
+        /* margin-left: -20vw !important; */
+    }
+    #yu{
+        width: 80% !important;
+    }
+
+    .uni li{
+        font-size: 1.2rem;
+        width: 6rem;
+        list-style: none;
+        /* border: 1px solid white; */
+    }
+    #main h1{
+        font-size: 1.5rem;
+    }
+
+}
+
 
   
 

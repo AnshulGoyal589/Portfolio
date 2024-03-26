@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div  className='flex flex-col justify-center items-center mt-12' >
 
-    <div className='border-[1px] border-black w-4/5 mt-12 ' ></div> 
+    <div className='border-[1px] border-black w-4/5 mt-12 ' ></div>  
         <h2 className='text-red text-[13px] mt-16' >MY PROFICIENY SKILLS</h2> 
         <h1 className='text-4xl font-[600] text-gray' >My Skills</h1>
 
@@ -26,7 +26,7 @@ const Skills = () => {
                             <ul>
                                 <li>React JS</li>
                                 <li>HTML</li>
-                                <li>CSS</li>
+                                <li>CSS</li> 
                                 <li>Canvas API</li>
                                 <li>Tailwind</li>
                             </ul>

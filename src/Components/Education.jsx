@@ -3,9 +3,9 @@ import one from './college.png'
 import './Education.css'
 
 const Education = () => {
-  return (
-    <div className='flex flex-col justify-center items-center' >
-        <div className='border-[1px] border-black w-4/5 mt-32' ></div>
+  return ( 
+    <div id='hero' className='flex flex-col justify-center items-center' >
+        <div  className='border-[1px] border-black w-4/5 mt-32' ></div>
 
         <h2 className='text-red text-[13px] mt-20' >BACHELORS IN TECHNOLOGY (COMPUTER SCIENCE) </h2>
         <h1 className='text-4xl font-[600] text-gray' >Education</h1>

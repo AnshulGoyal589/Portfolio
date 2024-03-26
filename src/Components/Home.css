@@ -336,6 +336,81 @@
     }
   }
 
+@media (min-width: 301px) and (max-width: 400px) {
+    #name{
+        font-size:7vw !important;
+    }
+    #nameD{
+        font-size: 3.2vw;
+        /* margin-top: -5vw; */
+    }
+    #oneDD{ 
+        font-size: 3.4vw;
+    }
+    #links span{
+        font-size: 3.5vw !important;
+        width: 16rem !important;
+        /* border: 1px solid white; */
+    }
+    #links p{
+        gap: 0.5rem !important;
+    }
+    #icon{
+        /* border: 1px solid white; */
+        width:2rem !important;
+    }
+    #two{
+        height: 14vh;
+        width: 87vw;
+    }
+
+    #twoC1{
+        font-size: 6vw;
+    }
+    #twoC2{
+        font-size: 3vw;
+    }
+    #part{
+        gap: 1rem !important;
+    }
+    #three{
+        height: 63vh;
+        width : 90vw ;
+        padding: 0px !important;
+        margin-left: -3rem !important;
+    }
+    #main{
+        flex-direction: column;
+        gap: 10vw;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-top: -15rem !important;
+        margin-bottom: 2vw !important;
+        /* border: 1px solid yellow; */
+        width: 100vw !important;
+
+    }
+    #mainC{
+        width: 100vw !important;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important; 
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-left: -3rem !important;
+        margin-right: 0px !important;
+        /* border: 1px solid red; */
+    }
+    #one{
+        height : 40vh;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 87vw !important;
+        
+    }
+  }
+
 
   
 

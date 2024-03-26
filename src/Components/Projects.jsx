@@ -8,9 +8,9 @@ import coffee from './coffee.jpg'
 import weather from './weather.jpg'
 import './projects.css'
 
-const Projects = () => {
+const Projects = () => { 
   return (
-    <div className='flex flex-col justify-center items-center' >
+    <div id='hero'  className='flex flex-col justify-center items-center' >
     <div className='border-[1px] border-black w-4/5  mt-20' ></div>
         <h2 className='text-red text-[13px] mt-16' >MY SKILLS DEMONSTRATION</h2>
         <h1 className='text-4xl font-[600] text-gray' >My Projects</h1>
