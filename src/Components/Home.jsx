@@ -46,7 +46,7 @@ const Home = () => {
         <div id='main' className='flex justify-center items-center pb-12 pt-44 pl-36 pr-44' >
             <div id='mainC' className='flex flex-col w-[49%] px-12 gap-7 drop-shadow-white' >
                 <div id='one' className=' h-[50vh] drop-shadow-4xl rounded-xl'>
-                    <div  className='w-full  h-full bg-blueTheme rounded-xl p-7 flex flex-col justify-between gap-4' >
+                    <div className='w-full  h-full bg-blueTheme rounded-xl p-7 flex flex-col justify-between gap-4' >
                         <p className='bg-[#4d1d30] p-2 rounded-full w-fit  h-[16%]' >
                             <p className='p-2 border-2 bg-red rounded-full border-red w-fit'><FaRegUser className='bg-red' /></p>
                         </p>
@@ -63,7 +63,7 @@ const Home = () => {
                             <p className='flex gap-5 text-base hover:cursor-pointer '   onClick={() => window.open('mailto:anshulgoyal589@gmail.com','_blank')}  ><CiMail className='text-red text-2xl' /><span id='oneDD' >anshulgoyal589@gmail.com</span></p>
 
                         </div>
-                    </div> 
+                    </div>  
                 </div>
                 <div id='two' className=' h-[18vh] drop-shadow-4xl rounded-xl'>
                     <div className='w-full  h-full bg-blueTheme rounded-xl p-5' >

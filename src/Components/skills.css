@@ -7,4 +7,28 @@
 }
 #spec li{
     width: 100%;
+} 
+
+
+@media (min-width: 401px) and (max-width: 500px) {
+
+    #main{
+        flex-direction: column;
+        /* border: 1px solid white; */
+        justify-content: center;
+        align-items: center; 
+        padding-left: 3rem !important;
+        width: 80%;
+    }
+    #yu{
+        width: 80% !important;
+    }
+
 }
+
+
+  
+
+
+  
+

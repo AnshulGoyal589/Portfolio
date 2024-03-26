@@ -4,8 +4,9 @@ import ecommerce from './ecommerce.jpg'
 import burger from './burger.jpg'
 import insta from './insta.jpg'
 import whatsapp from './whatsapp.jpg'
-import coffee from './coffee.jpg'
+import coffee from './coffee.jpg' 
 import weather from './weather.jpg'
+import './projects.css'
 
 const Projects = () => {
   return (
@@ -14,7 +15,7 @@ const Projects = () => {
         <h2 className='text-red text-[13px] mt-16' >MY SKILLS DEMONSTRATION</h2>
         <h1 className='text-4xl font-[600] text-gray' >My Projects</h1>
 
-        <div className='flex justify-center items-center gap-10 px-24' >
+        <div id='main' className='flex justify-center items-center gap-10 px-24' >
 
             <div onClick={() => window.open('https://intellishop.onrender.com','_blank')} className='drop-shadow-4xl w-[30%] h-96 rounded-xl mt-10 text-gray' >
                 <div className='flex flex-col p-7 drop-shadow-4xl rounded-xl w-full h-full bg-blueTheme gap-4' >
@@ -52,7 +53,7 @@ const Projects = () => {
             
         </div>
 
-        <div className='flex justify-center items-center gap-10 px-24' >
+        <div id='main' className='flex justify-center items-center gap-10 px-24' >
 
             <div onClick={() => window.open('https://github.com/AnshulGoyal589/Whatsapp-Automation','_blank')} className='drop-shadow-4xl w-[30%] h-96 rounded-xl mt-10 text-gray' >
                 <div className='flex flex-col p-7 drop-shadow-4xl rounded-xl w-full h-full bg-blueTheme gap-4' >
