@@ -11,7 +11,7 @@ import Contact from './Components/Contact'
 const App = () => {
 
   return (
-    <div className='bg-blueTheme text-white' >
+    <div className='bg-blueTheme text-white w-[100vw]' >
 
         <div  >
           <Navbar />

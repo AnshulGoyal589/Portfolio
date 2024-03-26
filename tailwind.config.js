@@ -5,6 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': '640px',   // Small screens, mobile phones
+      'md': '768px',   // Medium screens, tablets
+      'lg': '1024px',  // Large screens, laptops/desktops
+      'xl': '1280px',  // Extra large screens, large laptops/desktops
+      'custom': '1547px',  // Extra large screens, large laptops/desktops
+    },
     colors: {
       'blueTheme': '#212428',
       'purple': '#7e5bef',
