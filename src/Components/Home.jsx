@@ -7,6 +7,24 @@ import { CiMail } from "react-icons/ci";
 import anshul from './anshul.jpeg'
     
 const Home = () => {
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          section.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+
+      const generatePDF = () => {
+        const pdfUrl = './resume.pdf';
+        const link = document.createElement('a');
+        link.href = pdfUrl;
+        link.download = 'Resume_Anshul_Goyal.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        alert('Resume Downloaded Successfully!');
+      };
+
   return (
     <>
         <div className='flex justify-center items-center pb-12 pt-44 pl-36 pr-44 ' >
@@ -23,23 +41,23 @@ const Home = () => {
                         </div>
 
                         <div className='flex flex-col justify-evenly h-[45%]' >
-                            <p className='flex gap-5 text-base' ><FaGithub className='text-red text-6xl' />https://github.com/AnshulGoyal589</p>
-                            <p className='flex gap-5 text-base' ><CiLinkedin className='text-red text-2xl' />https://www.linkedin.com/in/anshul-goyal-a9b537254/</p>
-                            <p className='flex gap-5 text-base' ><IoCallOutline className='text-red text-6xl' />+91 81680 79094</p>
-                            <p className='flex gap-5 text-base' ><CiMail className='text-red text-2xl' />anshulgoyal589@gmail.com</p>
+                            <p className='flex gap-5 text-base hover:cursor-pointer '   onClick={() => window.open('https://github.com/AnshulGoyal589','_blank')}   ><FaGithub className='text-red text-6xl'/>https://github.com/AnshulGoyal589</p>
+                            <p className='flex gap-5 text-base hover:cursor-pointer '   onClick={() => window.open('https://www.linkedin.com/in/anshul-goyal-a9b537254','_blank')}   ><CiLinkedin className='text-red text-2xl' />https://www.linkedin.com/in/anshul-goyal-a9b537254/</p>
+                            <p className='flex gap-5 text-base hover:cursor-pointer '   onClick={() => window.open('tel:+918168079094','_blank')}   ><IoCallOutline className='text-red text-6xl' />+91 81680 79094</p>
+                            <p className='flex gap-5 text-base hover:cursor-pointer '   onClick={() => window.open('mailto:anshulgoyal589@gmail.com','_blank')}  ><CiMail className='text-red text-2xl' />anshulgoyal589@gmail.com</p>
 
                         </div>
                     </div> 
                 </div>
                 <div className='h-[18vh] drop-shadow-4xl rounded-xl'>
                     <div className='w-full h-full bg-blueTheme rounded-xl p-5' >
-                    <p className='text-gray-light text-6xl ml-2' >Download my CV</p>
+                    <p className='text-gray-light text-6xl ml-2' >Download my Resume</p>
                     <div className='flex justify-start items-center gap-7 mt-2' >
                         <div className='rounded-xl drop-shadow-4xl ' >
-                            <div className='bg-blueTheme rounded-xl  py-2 px-5 w-full h-full text-red text-base' >DOWNLOAD CV</div>
+                            <div className='bg-blueTheme rounded-xl  py-2 px-5 w-full h-full text-red text-base hover:cursor-pointer ' onClick={generatePDF} >DOWNLOAD</div>
                         </div>
-                        <div className='rounded-xl drop-shadow-4xl ' >
-                            <div className='bg-blueTheme rounded-xl  py-2 px-5 w-full h-full text-red text-base' >CONTACT ME</div>
+                        <div onClick={() => scrollToSection('contact')}  className='rounded-xl drop-shadow-4xl ' >
+                            <div className='bg-blueTheme rounded-xl  py-2 px-5 w-full h-full text-red text-base hover:cursor-pointer' >CONTACT ME</div>
                         </div>
                     </div>
                         

@@ -21,11 +21,11 @@ const Contact = () => {
             <div className='drop-shadow-4xl w-[70%] h-[55vh] rounded-xl mt-10 text-gray' >
                 <div className='flex flex-col px-7 pb-7 pt-7 drop-shadow-4xl rounded-xl w-full h-full bg-blueTheme gap-2 justify-center items-start' >
                     <h1 className='text-[2.5vw] text-red w-full text-center mb-5' >CONTACT DETAILS</h1>
-                    <p className='flex gap-5 text-[1.4vw] ' ><FaGithub className='text-red text-[2.5rem] ' />https://github.com/AnshulGoyal589</p>
-                    <p className='flex gap-5 text-[1.4vw] ' ><CiLinkedin className='text-red text-[2.5rem] ' />https://www.linkedin.com/in/anshul-goyal-a9b537254/</p>
-                    <p className='flex gap-5 text-[1.4vw] ' ><IoCallOutline className='text-red text-[2.5rem] ' />+91 81680 79094</p>
-                    <p className='flex gap-5 text-[1.4vw] ' ><CiMail className='text-red text-[2.5rem] ' />anshulgoyal589@gmail.com</p>
-                    <p className='flex gap-5 text-[1.4vw] ' ><CiTwitter className='text-red text-[2.5rem] ' />https://twitter.com/AnshulG70118665</p>
+                    <p className='flex gap-5 text-[1.4vw] hover:cursor-pointer '  onClick={() => window.open('https://github.com/AnshulGoyal589','_blank')}   ><FaGithub className='text-red text-[2.5rem] ' />https://github.com/AnshulGoyal589</p>
+                    <p className='flex gap-5 text-[1.4vw] hover:cursor-pointer '  onClick={() => window.open('https://www.linkedin.com/in/anshul-goyal-a9b537254','_blank')}   ><CiLinkedin className='text-red text-[2.5rem] ' />https://www.linkedin.com/in/anshul-goyal-a9b537254</p>
+                    <p className='flex gap-5 text-[1.4vw] hover:cursor-pointer '  onClick={() => window.open('tel:+918168079094','_blank')}   ><IoCallOutline className='text-red text-[2.5rem] ' />+91 81680 79094</p>
+                    <p className='flex gap-5 text-[1.4vw] hover:cursor-pointer '  onClick={() => window.open('mailto:anshulgoyal589@gmail.com','_blank')}   ><CiMail className='text-red text-[2.5rem] ' />anshulgoyal589@gmail.com</p>
+                    <p className='flex gap-5 text-[1.4vw] hover:cursor-pointer '  onClick={() => window.open('https://twitter.com/AnshulG70118665','_blank')}   ><CiTwitter className='text-red text-[2.5rem] ' />https://twitter.com/AnshulG70118665</p>
                 </div>
             </div>
 
