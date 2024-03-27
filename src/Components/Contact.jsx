@@ -5,7 +5,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci"; 
 import { CiTwitter } from "react-icons/ci";
-import './Contact.css'
+import './Contact.css' 
 
 const Contact = () => {
   return (
@@ -19,7 +19,7 @@ const Contact = () => {
 
         <div id='main' className='flex justify-center items-center w-[70vw] gap-12 ' >
 
-            <div id='mainC1' className='drop-shadow-4xl w-[70%] h-[55vh] rounded-xl mt-10 text-gray' >
+            <div id='mainC1' className='drop-shadow-4xl w-[50vw] h-[55vh] rounded-xl mt-10 text-gray' >
                 <div className='flex flex-col px-7 pb-7 pt-7 drop-shadow-4xl rounded-xl w-full h-full bg-blueTheme gap-2 justify-center items-start' >
                     <h1 className='text-[2.5vw] text-red w-full text-center mb-5' >CONTACT DETAILS</h1>
                     <p className='flex gap-5 text-[1.4vw] hover:cursor-pointer '  onClick={() => window.open('https://github.com/AnshulGoyal589','_blank')}   ><FaGithub id='icon' className='text-red text-[2.5rem] ' /><span>https://github.com/AnshulGoyal589</span></p>
@@ -30,9 +30,9 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div id='mainC2' className='drop-shadow-4xl w-[70%] h-[55vh] rounded-xl mt-10 text-gray'>
+            <div id='mainC2' className='drop-shadow-4xl w-[50vw] h-[55vh] rounded-xl mt-10 text-gray'>
                 <div className='flex p-7 drop-shadow-4xl rounded-xl w-full h-full bg-blueTheme gap-12'>
-                    <form className='flex flex-col gap-9 px-6 pb-2 pt-6' action="">
+                    <form className='flex flex-col gap-9 px-6 pb-2 pt-6 w-full' action="">
 
                         <input type="text" className='h-20 w-[100%] bg-[#f7f5ef] text-black rounded-xl py-2 px-5 text-xl' placeholder='username' />
                         <input type="text" className='h-20 w-[100%] bg-[#f7f5ef] text-black rounded-xl py-2 px-5 text-xl ' placeholder='abcd@gmail.com' />

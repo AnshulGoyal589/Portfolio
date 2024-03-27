@@ -17,7 +17,7 @@ const Projects = () => {
 
         <div id='main' className='flex justify-center items-center gap-10 px-24' >
 
-            <div onClick={() => window.open('https://intellishop.onrender.com','_blank')} className='drop-shadow-4xl w-[30%] h-96 rounded-xl mt-10 text-gray' >
+            <div onClick={() => window.open('https://intellishop.onrender.com','_blank')} className='drop-shadow-4xl w-[30%] h-[25rem] rounded-xl mt-10 text-gray' >
                 <div className='flex flex-col p-7 drop-shadow-4xl rounded-xl w-full h-full bg-blueTheme gap-4' >
                     <img className='w-[100%] h-[70%] rounded-xl' src={ecommerce} alt="" />
                     <div className='flex flex-col justify-start items-start w-[100%] ' >
@@ -28,18 +28,18 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div onClick={() => window.open('https://mcdonalds-kiosk-system.onrender.com','_blank')} className='drop-shadow-4xl w-[30%] h-96 rounded-xl mt-10 text-gray' >
+            <div onClick={() => window.open('https://mcdonalds-kiosk-system.onrender.com','_blank')} className='drop-shadow-4xl w-[30%] h-[25rem] rounded-xl mt-10 text-gray' >
                 <div className='flex flex-col p-7 drop-shadow-4xl rounded-xl w-full h-full bg-blueTheme gap-4' >
                     <img className='w-[100%] h-[69%] rounded-xl' src={burger} alt="" />
                     <div className='flex flex-col justify-start items-start w-[100%] ' >
                         {/* <h4 className='text-sm bg-gray-dark rounded-3xl py-1 px-3' >March 2024 - Present</h4> */}
-                        <h1 className='text-2xl text-red font-bold' >McDonalds Kiosk System</h1>
+                        <h1 className='text-2xl text-red font-bold' >McDonalds Kiosk</h1>
                         {/* <h2 className='text-xl mt-3' >Wev Development Engineer Intern</h2> */}
-                        <h3 className='text-[0.9rem] text-[#878e99] mt-1' >Recreated McDonalds Self Ordering Kiosk System using MERN and added Payment Gateway. </h3>
+                        <h3 className='text-[0.9rem] text-[#878e99] mt-1' >Recreated McDonalds Self Ordering Kiosk System and added Payment Gateway. </h3>
                     </div>
                 </div>
             </div>
-            <div onClick={() => window.open('https://instagram-clone-98y7.onrender.com','_blank')} className='drop-shadow-4xl w-[30%] h-96 rounded-xl mt-10 text-gray' >
+            <div onClick={() => window.open('https://instagram-clone-98y7.onrender.com','_blank')} className='drop-shadow-4xl w-[30%] h-[25rem] rounded-xl mt-10 text-gray' >
                 <div className='flex flex-col p-7 drop-shadow-4xl rounded-xl w-full h-full bg-blueTheme gap-4' >
                     <img className='w-[100%] h-[70%] rounded-xl' src={insta} alt="" />
                     <div className='flex flex-col justify-start items-start w-[100%] ' >
@@ -55,7 +55,7 @@ const Projects = () => {
 
         <div id='main' className='flex justify-center items-center gap-10 px-24' >
 
-            <div onClick={() => window.open('https://github.com/AnshulGoyal589/Whatsapp-Automation','_blank')} className='drop-shadow-4xl w-[30%] h-96 rounded-xl mt-10 text-gray' >
+            <div onClick={() => window.open('https://github.com/AnshulGoyal589/Whatsapp-Automation','_blank')} className='drop-shadow-4xl w-[30%] h-[25rem] rounded-xl mt-10 text-gray' >
                 <div className='flex flex-col p-7 drop-shadow-4xl rounded-xl w-full h-full bg-blueTheme gap-4' >
                     <img className='w-[100%] h-[70%] rounded-xl' src={whatsapp} alt="" />
                     <div className='flex flex-col justify-start items-start w-[100%] ' >
@@ -66,7 +66,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div onClick={() => window.open('https://anshulgoyal589.github.io/CoffeeBrewHub/','_blank')} className='drop-shadow-4xl w-[30%] h-96 rounded-xl mt-10 text-gray' >
+            <div onClick={() => window.open('https://anshulgoyal589.github.io/CoffeeBrewHub/','_blank')} className='drop-shadow-4xl w-[30%] h-[25rem] rounded-xl mt-10 text-gray' >
                 <div className='flex flex-col p-7 drop-shadow-4xl rounded-xl w-full h-full bg-blueTheme gap-4' >
                     <img className='w-[100%] h-[69%] rounded-xl' src={coffee} alt="" />
                     <div className='flex flex-col justify-start items-start w-[100%] ' >
@@ -77,7 +77,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div onClick={() => window.open('https://anshulgoyal589.github.io/WeatherlyApp/','_blank')} className='drop-shadow-4xl w-[30%] h-96 rounded-xl mt-10 text-gray' >
+            <div onClick={() => window.open('https://anshulgoyal589.github.io/WeatherlyApp/','_blank')} className='drop-shadow-4xl w-[30%] h-[25rem] rounded-xl mt-10 text-gray' >
                 <div className='flex flex-col p-7 drop-shadow-4xl rounded-xl w-full h-full bg-blueTheme gap-4' >
                     <img className='w-[100%] h-[70%] rounded-xl' src={weather} alt="" />
                     <div className='flex flex-col justify-start items-start w-[100%] ' >
