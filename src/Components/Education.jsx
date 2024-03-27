@@ -17,7 +17,7 @@ const Education = () => {
                     <h4 className='text-sm bg-gray-dark rounded-3xl py-1 px-3' >November 2022 - July 2026</h4>
                     <h1 className='mt-3 text-2xl' >Netaji Subhas University Of Technology, Delhi</h1>
                     <h2 className='text-xl mt-3' >Computer Science And Engineering ( BTech )  </h2>
-                    <h3 className='text-[0.9rem] text-[#878e99] mt-1' >Pursuing BTech Cmputer Science In NSUT Main Campus</h3>
+                    <h3 className='text-[0.9rem] text-[#878e99] mt-1' >Pursuing BTech Computer Science In NSUT Main Campus</h3>
                 </div>
                 <div id='expC2' className='w-[18%] drop-shadow-4xl h-full flex justify-center items-center ' >
                     <div className='w-full h-[30%] bg-blueTheme text-red flex justify-center items-center' > EXPLORE </div>
