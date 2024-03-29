@@ -8,7 +8,7 @@ import anshul from './anshul.jpeg'
 import './Home.css'
     
 const Home = () => {
-    const scrollToSection = (sectionId) => {
+    const scrollToSection = (sectionId) => { 
         const section = document.getElementById(sectionId);
         if (section) {
           section.scrollIntoView({ behavior: 'smooth' });
@@ -47,7 +47,7 @@ const Home = () => {
             <div id='mainC' className='flex flex-col w-[49%] px-12 gap-7 drop-shadow-white' >
                 <div id='one' className=' h-[50vh] drop-shadow-4xl rounded-xl'>
                     <div className='w-full  h-full bg-blueTheme rounded-xl p-7 flex flex-col justify-between gap-4' >
-                        <p className='bg-[#4d1d30] p-2 rounded-full w-fit  h-[16%]' >
+                        <p  id='io' className='bg-[#4d1d30] p-2 rounded-full w-fit  h-[16%]' >
                             <p className='p-2 border-2 bg-red rounded-full border-red w-fit'><FaRegUser className='bg-red' /></p>
                         </p>
 

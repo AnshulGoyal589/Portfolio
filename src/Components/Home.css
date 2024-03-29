@@ -67,6 +67,7 @@
     }
     #oneDD{
         font-size: 1.3vw;
+        width: 80%;
     }
     #one{
         height : 50vh;
@@ -100,6 +101,7 @@
     }
     #oneDD{
         font-size: 1.3vw;
+        width: 80%;
     }
     #one{
         height : 50vh;
@@ -133,6 +135,7 @@
     }
     #oneDD{
         font-size: 1.4vw;
+        width: 80%;
     }
     #one{
         height : 45vh;
@@ -167,6 +170,7 @@
     }
     #oneDD{
         font-size: 1.4vw;
+        width: 80%;
     }
     #one{
         height : 45vh;
@@ -200,6 +204,7 @@
     }
     #oneDD{
         font-size: 1.4vw;
+        width: 80%;
     }
     #one{
         height : 45vh;
@@ -234,6 +239,7 @@
     }
     #oneDD{
         font-size: 1.5vw;
+        width: 80%;
     }
     #one{
         height : 45vh;
@@ -274,10 +280,12 @@
     }
     #nameD{
         font-size: 3.3vw;
-        margin-top: -2vw;
+        margin-top: -2vw; 
     }
     #oneDD{
         font-size: 3.4vw;
+        width: 80%;
+        /* border: 1px solid whitesmoke; */
     }
     #two{
         height: 14vh;
@@ -336,17 +344,23 @@
     }
   }
 
-@media (min-width: 301px) and (max-width: 400px) {
+@media (min-width: 201px) and (max-width: 400px) {
     #name{
         font-size:7vw !important;
     }
     #nameD{
         font-size: 3.2vw;
+        margin-bottom: 0.5rem;
         /* margin-top: -5vw; */
     }
     #oneDD{ 
         font-size: 3.4vw;
+        width: 80%;
     }
+    #io{
+        margin-top: -1.3rem;
+        margin-bottom: -0.1rem;
+    } 
     #links span{
         font-size: 3.5vw !important;
         width: 16rem !important;
@@ -360,7 +374,7 @@
         width:2rem !important;
     }
     #two{
-        height: 14vh;
+        height: 30vw;
         width: 87vw;
     }
 
